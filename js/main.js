@@ -62,13 +62,13 @@ $(function(){
     })
   
     //tap 버튼
-    $('#guide-bar-01 > a:first').click(function(){
+    $('#guide-bar-01').click(function(){
         $(this).addClass('on');
         $('#win-now').removeClass('on');
         $('#notice-event').addClass('on');
     })
 
-    $(' #guide-bar-02> a:last').click(function(){
+    $('#guide-bar-02').click(function(){
         $(this).addClass('on');
         $('#notice-event').removeClass('on');
         $('#win-now').addClass('on');
