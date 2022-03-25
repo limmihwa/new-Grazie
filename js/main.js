@@ -81,7 +81,6 @@ $(function(){
   function changeVisual(num) {
     $('.tab-group a').removeClass('on');
 
-    // 이미지 액션
     if(num == 1) {
         $('.tab-group a').eq(num - 1).addClass('on');
     } else if(num == 2) {

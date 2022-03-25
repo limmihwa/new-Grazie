@@ -145,6 +145,8 @@ main {
 
 .about-visual {
   width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
   height: 265px;
   background-image: url(../images/about.jpg);
   background-size: cover;
