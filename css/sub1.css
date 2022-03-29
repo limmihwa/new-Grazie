@@ -312,11 +312,15 @@ section h1 {
 }
 
 .top-btn {
-  background: transparent;
-  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  background-color: #5B1333;
+  position: fixed;
   right: 20px;
   bottom: 15px;
   cursor: pointer;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .copy {
@@ -325,4 +329,120 @@ section h1 {
   margin-left: 40px;
   margin-top: 15px;
   padding-bottom: 60px;
+}
+
+
+
+/* grazie story */
+#grazie-story {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+#grazie-story h1 {
+  font-size: 36px;
+  margin-top: 80px;
+}
+
+#grazie-story img {
+  margin-bottom: 80px;
+}
+
+.story-text > h3 {
+  font-weight: 500;
+  font-size: 26px;
+  color: #5B1333;
+  margin-bottom: 26px;
+}
+
+.story-text > P {
+  font-size: 18px;
+  margin-bottom: 82px;
+}
+
+.story-img img {
+  width: 638px;
+  height: 338px;
+  margin-left: 60px;
+}
+
+.story-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee img {
+  width: 375px;
+  margin-right: 45px;
+}
+
+.coffee {
+  justify-content: center;
+}
+
+.coffee h2 {
+  font-size: 30px;
+  margin-bottom: 27px;
+  margin-top: 63px;
+}
+
+.coffee .story-text {
+  margin-left: 45px;
+}
+
+.coffee .story-text > ul > li {
+  list-style-type: disc;
+  font-size: 24px;
+  margin-left: 45px;
+  margin-bottom: 5px;
+}
+
+.bakery .story-info img {
+  width: 638px;
+}
+
+.bakery .story-text {
+  width: 594px;
+}
+
+.bakery .story-text > ul > li {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 3px;
+}
+
+.bakery-text {
+  margin-top: 50px;
+  width: 456px;
+  margin-right: 40px;
+}
+
+/* map */
+
+.location-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.address {
+  margin-top: 100px;
+
+}
+
+.address h2{
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.address h3 {
+  font-weight: normal;
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.map-grazie {
+  width: 900px;
+  height: 500px;
+  margin-bottom: 100px;
 }

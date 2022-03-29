@@ -155,8 +155,7 @@ header > h1 >a >img {
   justify-content: center;
 }
 
-#mobile-content-1 h2,
-#mobile-content-2 h2 {
+#mobile-content-1 h2{
   font-size: 30px;
   font-weight: 700;
   text-align: center;
@@ -164,9 +163,16 @@ header > h1 >a >img {
   margin-bottom: 50px;
 }
 
+#mobile-content-2 h2{
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
 .gallery1 img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     position: absolute;
     opacity: 0;
     transition: all 0.7s;
@@ -174,8 +180,8 @@ header > h1 >a >img {
     cursor: pointer;
 }
 .gallery2 img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     position: absolute;
     opacity: 0;
     transition: all 0.7s;
@@ -202,18 +208,18 @@ header > h1 >a >img {
 
 .prev, .next {
     border: 0;
-    font-size: 35px;
+    font-size: 25px;
     padding: 15px;
     cursor: pointer;
 }
 .prev {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 0;
 }
 .next {
     position: absolute;
-    top: 45%;
+    top: 55%;
     right: 0;
 }
 
@@ -223,8 +229,10 @@ header > h1 >a >img {
   width: 100%;
   min-width: 420px;
   margin: 0 auto;
+  margin-top: 70px;
   margin-bottom: 70px;
   text-align: center;
+  padding-top: 43px;
 }
 
 #content2 h2 {
@@ -275,6 +283,8 @@ header > h1 >a >img {
   background: #8A546C;
   color: #fff;
   cursor: pointer;
+  margin-left: 1em;
+  border: none;
 }
 
 .franchise .ask-btn {
@@ -333,6 +343,8 @@ header > h1 >a >img {
 
 #menu-about p {
   font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
   text-align: center;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   margin-top: 40px;
